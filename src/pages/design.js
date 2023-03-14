@@ -2,12 +2,14 @@ import Footer from "@/footer/footer";
 import Header from "@/header/header";
 
 
-export default function Home() {
-  return (
+const Design = () => {
+    return (
     <>
       <Header/>
-      <h1>Dev</h1>
+      <h1>Design</h1>
       <Footer/>
     </>
-  )
+    )
 }
+
+export default Design;
